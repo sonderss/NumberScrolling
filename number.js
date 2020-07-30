@@ -5,8 +5,6 @@ class CbuildNumber {
         this.color = obj.color ? obj.color  : "#1890FF" // 字体颜色
         this.size = obj.size ? obj.size : '16px'
     }
-    // 3. 可自定义字体颜色 大小
-
     // 判断是否为数字
     isNumber () {
         return isNaN(this.num)
