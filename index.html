@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./number.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="t">
+        Star
+        <text id='num'></text>
+        次
+    </div>
+</body>
+</html>
+<script>
+    
+    let dom = document.getElementById('num')
+    let obj  ={
+        dom,
+        num: "5713689",
+        color: '#1890FF'
+    }
+    const t = new CbuildNumber(obj)
+    t.start()
+
+</script>
+<style>
+#t{
+width: 150px;
+height: 21px;
+background: #e6f7ff;
+border: 1px solid #91D5FF;
+text-align: center;
+align-items: center;
+border-radius: 3px;
+padding: 5px;
+font-size: 16px;
+color: #1890FF;
+}
+</style>
